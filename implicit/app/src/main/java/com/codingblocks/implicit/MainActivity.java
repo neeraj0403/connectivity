@@ -49,27 +49,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     break;
                 case (R.id.phone):
-                    try {
 
-                        if (!input.startsWith("tel")) {
+                    if (!input.startsWith("tel")) {
                             input = "tel:" + input;
-                        }
 
-                        intent.setAction(intent.ACTION_DIAL);
+
+                        intent.setAction(intent.ACTION_VIEW);
 
                         intent.setData(Uri.parse(input));
-                        if(intent.getData()!=null)
-                        {
-                            throw new Exception("invalid input");
-                        }
-                     else
+
 
                         startActivity(intent);
                     }
-          catch (Exception e)
-          {
-              Toast.makeText(this,e.toString(),Toast.LENGTH_LONG).show();
-          }
+
                     break;
                 case(R.id.mail):
                     if(!input.startsWith("mailto"))

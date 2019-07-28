@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new name("rahul","meena"));
         list.add(new name("rahul","meena"));
         list.add(new name("dhanji","ray"));
+
         list.add(new name("shivam","dhaka"));
         list.add(new name("akhil","kumar"));
         list.add(new name("vimal","chutiya"));
