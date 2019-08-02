@@ -1,12 +1,10 @@
 package com.codingblocks.contactlist;
 
 import android.Manifest;
-import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.net.sip.SipSession;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -16,10 +14,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.Switch;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
@@ -42,6 +38,7 @@ public class contactadapter extends RecyclerView.Adapter<contactadapter.viewHold
     }
 
     TextView name, phone;
+    RelativeLayout layout;
  private List<contactinfo> list;
 
     public contactadapter(List<contactinfo> list) {
@@ -89,6 +86,7 @@ String image=list.get(i).getLink();
              msg=(itemView).findViewById(R.id.msg);
              call.setOnClickListener(this);
              msg.setOnClickListener(this);
+             context = itemView.getContext() ;
          }
 
          public void setData(String mname, String mnumber, String mimage) {
@@ -123,10 +121,40 @@ String image=list.get(i).getLink();
                      }
                      else
                      {
-                         ActivityCompat.requestPermissions((AppCompatActivity)context,new String[]{Manifest.permission.CALL_PHONE},120);
+                         ActivityCompat.requestPermissions((AppCompatActivity)context,new String[]{Manifest.permission.CALL_PHONE,Manifest.permission.SEND_SMS},120);
                      }
+                     break;
+                 case(R.id.msg):
+                             {
+                                 Intent intent1=new Intent(context,inbox.class);
+                                 intent1.putExtra("name",number.getText().toString());
+                                 context.startActivity(intent1);
+
+
+
+                             }
+                 case(R.id.relativeLayout):
+                 {
+                     layout.setOnLongClickListener(new View.OnLongClickListener() {
+                         @Override
+                         public boolean onLongClick(View v) {
+                             Intent intent =new Intent(context,Edit_details.class);
+
+
+                             return  true;
+                         }
+                     });
+
+
+
+
+
+                 }
+
              }
+
          }
+
      }
 
 }

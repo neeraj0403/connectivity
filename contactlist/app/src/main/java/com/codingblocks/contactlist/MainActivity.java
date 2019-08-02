@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         {
             case (R.id.contact):
             {
+
                 Intent intent=new Intent(MainActivity.this,contacts.class);
                 //intent.putExtra("name","contacts");
                startActivity(intent);
@@ -33,14 +34,14 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 break;
             }
 
-            case(R.id.save):
-                   {
-
-            Intent intent=new Intent(MainActivity.this,contacts.class);
-            //intent.putExtra("naame","save");
-            startActivity(intent);
-                       break;
-                   }
+//            case(R.id.save):
+//                   {
+//
+//            Intent intent=new Intent(MainActivity.this,savecontact.class);
+//            //intent.putExtra("naame","save");
+//            startActivity(intent);
+//                       break;
+//                   }
 
 
         }

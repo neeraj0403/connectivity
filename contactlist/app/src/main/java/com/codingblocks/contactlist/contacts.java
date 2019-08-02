@@ -36,14 +36,14 @@ public class contacts extends AppCompatActivity  {
         list.add(new contactinfo("vimal", "8700032995", "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/12/24/Photos/Processed/modi8-kb6B--621x414@LiveMint.jpg"));
         list.add(new contactinfo("neeraj", "8810439244", "https://en.wikipedia.org/wiki/Barack_Obama#/media/File:President_Barack_Obama.jpg"));
         list.add(new contactinfo("prabhat", "9958898968", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohaXooMIT6Q1fn76fDz0i_F2FnAaWuHvX9qzAXOTfe7A8XrrL"));
-        list.add(new contactinfo("abhishek", "tel:8800202487", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIFpOD7z3z18oH8DBdsjgJh1LneOeL7vKrAyvvZ_YVl1hagABVw"));
-        list.add(new contactinfo("amandeep", "tel:8750448727", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIFpOD7z3z18oH8DBdsjgJh1LneOeL7vKrAyvvZ_YVl1hagABVw"));
-        list.add(new contactinfo("manish", "tel:8802850720", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIFpOD7z3z18oH8DBdsjgJh1LneOeL7vKrAyvvZ_YVl1hagABVw"));
-        list.add(new contactinfo("rahul", "tel:9540450444", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
-        list.add(new contactinfo("amandeep", "tel:8750448727", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
-        list.add(new contactinfo("manish", "tel:8802850720", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
-        list.add(new contactinfo("rahul", "tel:9540450444", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
-        list.add(new contactinfo("neeraj", "tel:1645454885", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
+        list.add(new contactinfo("abhishek", "8800202487", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIFpOD7z3z18oH8DBdsjgJh1LneOeL7vKrAyvvZ_YVl1hagABVw"));
+        list.add(new contactinfo("amandeep", "8750448727", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIFpOD7z3z18oH8DBdsjgJh1LneOeL7vKrAyvvZ_YVl1hagABVw"));
+        list.add(new contactinfo("manish", "8802850720", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIFpOD7z3z18oH8DBdsjgJh1LneOeL7vKrAyvvZ_YVl1hagABVw"));
+        list.add(new contactinfo("rahul", "9540450444", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
+        list.add(new contactinfo("amandeep", "8750448727", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
+        list.add(new contactinfo("manish", "8802850720", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
+        list.add(new contactinfo("rahul", "9540450444", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
+        list.add(new contactinfo("neeraj", "1645454885", "https://media.wired.com/photos/5b80661c2c80eb32627bf13b/master/w_582,c_limit/PresDonaldTrump-1022296714.jpg"));
         contactadapter contactadapter = new contactadapter(list);
         recycle.setAdapter(contactadapter);
 
