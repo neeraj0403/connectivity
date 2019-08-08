@@ -56,10 +56,10 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-            Log.d("main","ONPOSTEXECUTE") ;
+           // Log.d("main","ONPOSTEXECUTE") ;
 
             ArrayList<GithubUser> users = jsonparser(s);
-            Log.d("main",users.size()+"") ;
+            //Log.d("main",users.size()+"") ;
 
             GithubUserAdapter adapter = new GithubUserAdapter(users) ;
             recyclerView = findViewById(R.id.recycle) ;
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
             recyclerView.setAdapter(adapter);
 
-            Log.d("main","ONPOSTEXECUTEENDED") ;
+           // Log.d("main","ONPOSTEXECUTEENDED") ;
 
 
         }
