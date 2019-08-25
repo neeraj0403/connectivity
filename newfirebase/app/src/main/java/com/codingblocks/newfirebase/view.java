@@ -26,39 +26,50 @@ public class view extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycle);
 
 
-        final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+         DatabaseReference reference=databaseReference.child("details");
         Log.d("in", "i have my reference ");
 
 
-databaseReference.addChildEventListener(new ChildEventListener()
+
+
+
+
+reference.addChildEventListener(new ChildEventListener()
 {
+    ArrayList<details> list=new ArrayList<>();
+
 
     @Override
     public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
         //called when a new data node is inserted to the "newfirebase"  node
 int count=0;
-        ArrayList<details> list=new ArrayList<>();
-        Log.d("in", "i am in onChildAdded");
 
-            String name=databaseReference.child("name").;
-            String age=dataSnapshot.getValue(details.class).getAge();
-            String  phone=dataSnapshot.getValue(details.class).getPhone();
-            count=count+1;
-            Log.d("in", "i am in datasnapshot loop"+count);
+        Log.d("in", "i am in onChildAdded");
+//        String name = dataSnapshot.child("name").getValue().toString() ;
+//        String age = dataSnapshot.child("age").getValue().toString() ;
+//        String phno = dataSnapshot.child("phone").getValue().toString() ;
+
+  details details=dataSnapshot.getValue(com.codingblocks.newfirebase.details.class);
+
+
+        details details1=new details(details.name,details.age,details.phone);
+    list.add(details1);
+//            String name=databaseReference.child("name").;
+//            String age=dataSnapshot.getValue(details.class).getAge();
+//            String  phone=dataSnapshot.getValue(details.class).getPhone();
 //            String name=snapshot.getValue(;
 //            String age=snapshot.child("age").getValue(String.class);
 //            String phone=snapshot.child("phone").getValue(String.class);
 //            Log.d("in", name+" "+age+"  "+phone);
-        details  details1=new details(name,age,phone);
 
-        Log.d("in","hy"+" "+details1.name+" "+details1.age+" "+details1.phone);
+
 
 
             Log.d("in", "i am calling pojo class ");
             Log.d("in","bye"+" "+details1.name+" "+details1.age+" "+details1.phone);
 
 
-           list.add(details1);
            // Log.d("in", );
 
 
@@ -67,10 +78,15 @@ int count=0;
 
         Log.d("in", "i am outside newsfireadapter");
 
-        newfireadapter newfireadapter = new newfireadapter(list);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        recyclerView.setAdapter(newfireadapter);
 
+        Log.d("in", "listsize"+list.size()) ;
+        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+        Log.d("in", "Adapter set");
+        newfireadapter newfireadapter = new newfireadapter(list);
+        Log.d("in", "Adapter created");
+        recyclerView.setAdapter(newfireadapter);
+        Log.d("in", "Adapter called" +
+                "");
 
     }
 

@@ -18,23 +18,29 @@ public class submit extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        final DatabaseReference database= FirebaseDatabase.getInstance().getReference();
+        final DatabaseReference reference=database.child("details");
         setContentView(R.layout.activity_submit);
         age=findViewById(R.id.age);
         name=findViewById(R.id.name);
         number=findViewById(R.id.phone);
         submit1=findViewById(R.id.save);
-        final DatabaseReference database= FirebaseDatabase.getInstance().getReference();
+
+
+        // DatabaseReference database= FirebaseDatabase.getInstance().getReference();
         submit1.setOnClickListener(new View.OnClickListener() {
-            String nname=name.getText().toString();
-            String aage=age.getText().toString();
-            String nnumber=number.getText().toString();
-            final DatabaseReference database= FirebaseDatabase.getInstance().getReference();
+
             @Override
             public void onClick(View v) {
                 Log.d("in","in on click");
+                String nname=name.getText().toString();
+                String aage=age.getText().toString();
+                String nnumber=number.getText().toString();
+                details  details=new details(nname,aage,nnumber);
 
 
-               database.push().setValue(new details(name.getText().toString(),age.getText().toString(),number.getText().toString()));
+               reference.child("details").push().setValue(details);
 
 
 

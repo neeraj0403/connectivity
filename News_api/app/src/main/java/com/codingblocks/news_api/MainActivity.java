@@ -10,6 +10,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -25,6 +28,10 @@ import java.util.Scanner;
 public class MainActivity extends AppCompatActivity  {
  ImageView imageView;
  RecyclerView recyclerView;
+    DatabaseReference reference= FirebaseDatabase.getInstance().getReference();
+    DatabaseReference databaseReference=reference.child("info");
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +99,7 @@ return "invalid API";
 }
 public ArrayList<news_info> Jsoncall(String s)
 {
+
     ArrayList<news_info> list=new ArrayList<>();
     try {
         JSONObject object=new JSONObject(s);
@@ -106,6 +114,7 @@ public ArrayList<news_info> Jsoncall(String s)
             String url=object1.getString("url");
             String content=object1.getString("content");
             news_info info=new news_info(heading,image,desc,url,content);
+            reference.child("info").push().setValue(info);
             list.add(info);
 
         }

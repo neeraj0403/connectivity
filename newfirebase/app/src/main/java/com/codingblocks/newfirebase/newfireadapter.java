@@ -16,7 +16,12 @@ import java.util.ArrayList;
 
 public class newfireadapter extends RecyclerView.Adapter<newfireadapter.ViewHolder> {
 
-        public  ArrayList<details> list;
+    public newfireadapter(ArrayList<details> list, Context context) {
+        this.list = list;
+        this.context = context;
+    }
+
+    public  ArrayList<details> list;
     Context context;
 
     public newfireadapter(ArrayList<details> list) {
@@ -28,7 +33,7 @@ public class newfireadapter extends RecyclerView.Adapter<newfireadapter.ViewHold
     @Override
     public newfireadapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         Log.d("in", " i am in onCreateViewHolder of adapter");
-        View view= LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.activity_view,viewGroup,false);
+        View view= LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.row_firebase,viewGroup,false);
         context=viewGroup.getContext();
         return  new ViewHolder(view);
 
@@ -46,7 +51,7 @@ public class newfireadapter extends RecyclerView.Adapter<newfireadapter.ViewHold
 
     @Override
     public int getItemCount() {
-        return 0;
+        return list.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
@@ -58,6 +63,7 @@ TextView name,age,phone;
             name=itemView.findViewById(R.id.name);
             age=itemView.findViewById(R.id.age);
             phone=itemView.findViewById(R.id.phone);
+            context = itemView.getContext() ;
 
         }
 
@@ -66,6 +72,7 @@ TextView name,age,phone;
          name.setText(nname);
          age.setText(aage);
          phone.setText(ccontact);
+
 
         }
     }
