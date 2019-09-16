@@ -1,4 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_action_name"
+        android:title="Home"
+
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_action_pname"
+        android:title="Profile"
+
+        />
+    <item
+        android:id="@+id/upcomingevents"
+        android:icon="@drawable/ic_action_gname"
+        android:title="Upcoming events"
+
+        />
+    <item
+        android:id="@+id/our_Team"
+        android:icon="@drawable/ic_action_ename"
+        android:title="Our Team"
+
+        />
+    <item
+        android:id="@+id/achievement"
+        android:icon="@drawable/ic_action_aname"
+        android:title="Achievement"
+
+        />
+    <item
+        android:id="@+id/faqs"
+        android:icon="@drawable/ic_action_fname"
+        android:title="FeedBacks"
+
+        />
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/ic_action_sname"
+        android:title="Sign Out"
+
+        />
+
+
+
+
+
+
 </menu>

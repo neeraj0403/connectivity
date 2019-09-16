@@ -1,9 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Fragment_profile">
 
-</android.support.constraint.ConstraintLayout>
+    android:layout_height="match_parent"
+
+
+    tools:context=".Fragment_profile">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+      android:id="@+id/rel"
+        android:layout_height="wrap_content"
+       android:background="@drawable/grad">
+
+        <RelativeLayout
+            android:id="@+id/imguserlayout"
+            android:layout_width="wrap_content"
+           android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+
+          >
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fragprofile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_android_black_24dp"
+               app:civ_border_width="2dp"
+              android:background="@drawable/circle"
+                />
+
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/fragprofile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imguserlayout"
+            android:layout_marginTop="10dp"
+            android:textSize="32sp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+
+            android:textColor="@color/white"
+
+            android:fontFamily="cursive"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_settings_black_24dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop ="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:text="Education"
+                    android:textColor="@color/headings"
+
+                    android:textSize="15sp"
+                    android:drawableLeft="@drawable/ic_school_blacks_24dp"
+                    android:drawablePadding="3dp"
+
+
+                  />
+                <TextView
+                    android:id="@+id/fragprofile_college"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/fragprofile_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/fragprofile_branch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/fragprofile_year"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragprofile_batch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Contact"
+                    android:textSize="15sp"
+                    android:drawableLeft="@drawable/ic_phone_black_24dp"
+                    android:textColor="@color/headings"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fragprofile_phone"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="15sp"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/headings"
+                    />
+                <TextView
+                    android:id="@+id/fragprofile_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Github"
+                    android:textSize="15sp"
+                    android:textColor="@color/headings"
+                    android:drawableLeft="@drawable/ic_github_mark_120px_plus"/>
+                <TextView
+                    android:id="@+id/fragprofile_github"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b581f57e-d0b8-4f5d-914d-6ad3b5d29f06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/drawable/grad.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/ScreenSlidePager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/login_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/signup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/team_memberfrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/background_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/background_newsignup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/background_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_check_box_outline_blank_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_lock_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_person_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_phone_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/logingrad.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/tab_indicator_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/tab_indicator_selected.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/tab_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_login_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/screen_slide_team.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/team_memberfc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/dimension.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News_api/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Syndicatefinal/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/fragment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/fragment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/fragment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/fragment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/stateadapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/java/com/codingblocks/fragments/stateadapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_fragment1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_fragment1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_fragment2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_fragment2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_secondactivvity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/layout/activity_secondactivvity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragments/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragments/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/androidTest/java/com/codingblocks/iosd/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/androidTest/java/com/codingblocks/iosd/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/Fragment_home.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/Fragment_home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/Fragment_profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/Fragment_profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/java/com/codingblocks/iosd/statefragmentadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-anydpi/ic_action_ename.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-anydpi/ic_action_ename.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-anydpi/ic_action_name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-anydpi/ic_action_name.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-hdpi/ic_action_ename.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-hdpi/ic_action_ename.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-hdpi/ic_action_name.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-hdpi/ic_action_name.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-mdpi/ic_action_ename.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-mdpi/ic_action_ename.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-xhdpi/grad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-xhdpi/grad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-xhdpi/ic_action_ename.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-xhdpi/ic_action_ename.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-xxhdpi/ic_action_ename.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable-xxhdpi/ic_action_ename.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/circle_border.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/circle_border.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_android_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_android_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_github_mark_120px_plus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_github_mark_120px_plus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_school_blacks_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_school_blacks_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_settings_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/drawable/ic_settings_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/navigate_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/layout/navigate_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/menu/navigate_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/menu/navigate_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IOSD/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../IOSD/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../News_api/app/src/main/java/com/codingblocks/news_api/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../News_api/app/src/main/java/com/codingblocks/news_api/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Webview" beforeDir="false" afterPath="$PROJECT_DIR$/../Webview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msi_admin/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msi_admin/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/androidTest/java/com/codingblocks/navigation/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/java/com/codingblocks/navigation/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_menu_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_menu_gallery.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_menu_manage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_menu_send.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_menu_share.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/layout/nav_header_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/menu/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/values-v21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/app/src/test/java/com/codingblocks/navigation/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../planet" beforeDir="false" afterPath="$PROJECT_DIR$/../planet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/androidTest/java/com/codingblocks/testfirebaseactivity/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/androidTest/java/com/codingblocks/testfirebaseactivity/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/java/com/codingblocks/testfirebaseactivity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/java/com/codingblocks/testfirebaseactivity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirebaseactivity/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../testfirebaseactivity/gradle.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="ab8c68107d25" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="69" />
+    <option name="y" value="27" />
+    <option name="width" value="1073" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msi_admin" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b581f57e-d0b8-4f5d-914d-6ad3b5d29f06" name="Default Changelist" comment="" />
+      <created>1568555098274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568555098274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="25" width="1851" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32963988" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.33081082" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>

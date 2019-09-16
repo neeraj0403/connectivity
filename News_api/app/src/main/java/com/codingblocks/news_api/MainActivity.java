@@ -2,6 +2,8 @@ package com.codingblocks.news_api;
 
 import android.net.Network;
 import android.os.AsyncTask;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,6 +12,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -29,7 +34,8 @@ public class MainActivity extends AppCompatActivity  {
  ImageView imageView;
  RecyclerView recyclerView;
     DatabaseReference reference= FirebaseDatabase.getInstance().getReference();
-    DatabaseReference databaseReference=reference.child("info");
+    DatabaseReference databaseReference=reference.child("details");
+            ;
 
 
 
@@ -58,15 +64,56 @@ public void updaterecyclerview(String s) {
 {
 
     @Override
-    protected void onPostExecute(String s) {
+    protected void onPostExecute(final String s) {
         super.onPostExecute(s);
 
-        ArrayList<news_info> newsInfos=Jsoncall(s);
+
         recyclerView=findViewById(R.id.recycle);
-        news_adapter newsInfos1=new news_adapter(newsInfos);
-        Log.d("in","i am in network");
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        recyclerView.setAdapter(newsInfos1);
+
+
+        databaseReference.addChildEventListener(new ChildEventListener() {
+            ArrayList<news_info>
+          list=Jsoncall(s);
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                Log.d("in", "onChildAdded: ");
+              //  news_info news_info=dataSnapshot.getValue(com.codingblocks.news_api.news_info.class);
+                String content = dataSnapshot.child("content").getValue().toString() ;
+                String desc=dataSnapshot.child("description").getValue().toString();
+                String title= dataSnapshot.child("title").getValue().toString() ;
+                String url=dataSnapshot.child("url").getValue().toString();
+                String urltoimage=dataSnapshot.child("urltoimage").getValue().toString();
+                news_info news_info1=new news_info(content,desc,title,url,urltoimage);
+              list.add(news_info1);
+
+                news_adapter newsInfos1=new news_adapter(list);
+                Log.d("in","i am in network");
+                recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+                recyclerView.setAdapter(newsInfos1);
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
 
 
 
@@ -114,8 +161,9 @@ public ArrayList<news_info> Jsoncall(String s)
             String url=object1.getString("url");
             String content=object1.getString("content");
             news_info info=new news_info(heading,image,desc,url,content);
-            reference.child("info").push().setValue(info);
+
             list.add(info);
+            reference.child("details").push().setValue(info);
 
         }
 
