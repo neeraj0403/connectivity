@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "574974210367",
+    "firebase_url": "https://letsdonate-5e049.firebaseio.com",
+    "project_id": "letsdonate-5e049",
+    "storage_bucket": "letsdonate-5e049.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574974210367:android:3b18a337f222d48102a38a",
+        "android_client_info": {
+          "package_name": "com.example.letsdonate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574974210367-ve5fhd2iolac6vn5fv2ppcskhpjf8etd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letsdonate",
+            "certificate_hash": "5174218d1a783afc2cf2acc602271f59cd011a80"
+          }
+        },
+        {
+          "client_id": "574974210367-h96k9553j6meovkf1o5vr0olio3iji5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_byXLRYfJUYGBFxuEpxKvq7uTmmo9ku4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574974210367-h96k9553j6meovkf1o5vr0olio3iji5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
